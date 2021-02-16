@@ -1,0 +1,15 @@
+{
+  "name": "rust-wasm-parcel",
+  "version": "1.0.0",
+  "description": "demo of using WASM with Rust in a web app",
+  "main": "index.html",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html --open"
+  },
+  "author": "R. Mark Volkmann (r.mark.volkmann@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
